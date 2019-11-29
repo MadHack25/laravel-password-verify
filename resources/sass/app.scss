@@ -1,0 +1,27 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.card{
+    -webkit-box-shadow: -2px 14px 18px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 14px 18px -7px rgba(0,0,0,0.75);
+    box-shadow: -2px 14px 18px -7px rgba(0,0,0,0.75);
+}
+
+body{
+    background-color: #bdbebf;
+    background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
+}
+
+.card-header{
+    color: white;
+    font-weight: bold;
+    background: rgb(52,58,64);
+    background: linear-gradient(90deg, rgba(52,58,64,1) 0%, rgba(163,163,193,1) 68%, rgba(246,253,255,1) 100%); 
+}
